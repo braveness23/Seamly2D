@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina v0.6.1.0 (https://valentinaproject.bitbucket.io/).-->
+    <version>0.7.12</version>
+    <unit>inch</unit>
+    <description/>
+    <notes/>
+    <measurements>../measurements/individual/Modellina_Skirt.vit</measurements>
+    <increments>
+        <increment description="" formula="70" name="#GARM_LENGTH"/>
+        <increment description="" formula="5" name="#EASE_HIP"/>
+        <increment description="" formula="7" name="#EASE_BUST"/>
+        <increment description="" formula="hip_circ+#ease_hip" name="#HIP_WIDTH"/>
+        <increment description="" formula="bust_circ+#ease_bust" name="#BUST_WIDTH"/>
+        <increment description="width of neck (radius)" formula="neck_circ/(2*_pi)+1.5" name="#neck_width"/>
+    </increments>
+    <previewCalculations/>
+    <draw name="Reference">
+        <calculation>
+            <point id="1" mx="0.0520833" my="0.104167" name="A" showLabel="true" type="single" x="0.3125" y="0.416667"/>
+            <point angle="0" basePoint="1" id="2" length="5" lineColor="black" mx="0.0520833" my="0.104167" name="A1" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="180" firstPoint="1" id="3" length="5" lineColor="black" mx="0.0520833" my="0.104167" name="A2" secondPoint="2" showLabel="true" type="normal" typeLine="hair"/>
+            <point angle="180" firstPoint="3" id="4" length="5" lineColor="black" mx="0.0520833" my="0.104167" name="A3" secondPoint="1" showLabel="true" type="normal" typeLine="hair"/>
+            <line firstPoint="4" id="5" lineColor="black" secondPoint="2" typeLine="hair"/>
+            <point id="14" mx="0.0520833" my="0.104167" name="A4" showLabel="true" type="single" x="1.3125" y="0.416667"/>
+            <point id="15" mx="0.0520833" my="0.104167" name="A5" showLabel="true" type="single" x="2.3125" y="0.416667"/>
+            <point id="16" mx="0.0520833" my="0.104167" name="A6" showLabel="true" type="single" x="3.3125" y="0.416667"/>
+            <point id="17" mx="0.0520833" my="0.104167" name="A7" showLabel="true" type="single" x="4.43493" y="1.86034"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+    <draw name="Back">
+        <calculation>
+            <point id="6" mx="0.0520833" my="0.104167" name="B" showLabel="true" type="single" x="60" y="2"/>
+            <point angle="269.871" basePoint="6" id="7" length="30.2029" lineColor="black" mx="0.0520833" my="0.104167" name="B1" showLabel="true" type="endLine" typeLine="hair"/>
+            <point firstPoint="6" id="8" length="@neck_back_to_highbust_b" lineColor="black" mx="0.0520833" my="0.104167" name="B2" secondPoint="7" showLabel="true" type="alongLine" typeLine="none"/>
+            <point angle="0" firstPoint="7" id="9" length="#HIP_WIDTH/4" lineColor="black" mx="0.0520833" my="0.104167" name="B3" secondPoint="8" showLabel="true" type="normal" typeLine="hair"/>
+            <point angle="0" firstPoint="8" id="10" length="#BUST_WIDTH/5.5" lineColor="black" mx="0.0520833" my="0.104167" name="B4" secondPoint="6" showLabel="true" type="normal" typeLine="hair"/>
+            <point angle="180" firstPoint="6" id="11" length="neck_circ/6+1" lineColor="black" mx="0.0520833" my="0.104167" name="B5" secondPoint="8" showLabel="true" type="normal" typeLine="hair"/>
+            <point angle="0" firstPoint="11" id="12" length="2" lineColor="black" mx="0.0520833" my="0.104167" name="B6" secondPoint="6" showLabel="true" type="normal" typeLine="hair"/>
+            <spline aScale="0" angle1="288.229" angle2="181.291" color="black" id="13" length1="1.0471" length2="1.5748" penStyle="hair" point1="12" point4="6" type="simpleInteractive"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <!--Measurements created with Valentina v0.6.1.0 (https://valentinaproject.bitbucket.io/).-->
+    <version>0.5.0</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <customer>Modellina Skirt</customer>
+        <birth-date>1800-01-01</birth-date>
+        <gender>female</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="height" value="170"/>
+        <m name="bust_circ" value="90"/>
+        <m name="neck_circ" value="35.8"/>
+        <m name="shoulder_length" value="11.8"/>
+        <m name="waist_circ" value="75"/>
+        <m name="hip_circ" value="96"/>
+        <m name="@neck_back_to_highbust_b" value="20"/>
+    </body-measurements>
+</vit>
