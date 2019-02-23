@@ -7,9 +7,9 @@
     <unit>cm</unit>
     <pm_system>998</pm_system>
     <personal>
-        <customer/>
-        <birth-date>1800-01-01</birth-date>
-        <gender>unknown</gender>
+        <customer>Dave Schwinn</customer>
+        <birth-date>1967-05-10</birth-date>
+        <gender>male</gender>
         <email/>
     </personal>
     <body-measurements>
