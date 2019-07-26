@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <!--Measurements created with Seamly2D v0.6.0.1 (http://fashionfreedom.eu/).-->
+    <version>0.3.3</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name/>
+        <given-name/>
+        <birth-date>1800-01-01</birth-date>
+        <gender>unknown</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="hand_palm_length" value="8"/>
+        <m name="hand_length" value="19"/>
+        <m name="hand_palm_width" value="9"/>
+        <m name="hand_palm_circ" value="22"/>
+        <m name="hand_circ" value="26"/>
+        <m name="head_circ" value="60"/>
+        <m name="rib_circ" value="0"/>
+        <m name="waist_circ" value="0"/>
+        <m name="highhip_circ" value="0"/>
+        <m name="hip_circ" value="0"/>
+    </body-measurements>
+</vit>
