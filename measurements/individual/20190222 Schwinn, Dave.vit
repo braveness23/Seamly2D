@@ -13,12 +13,12 @@
         <email/>
     </personal>
     <body-measurements>
-        <m name="hand_palm_length" value="8"/>
-        <m name="hand_length" value="19"/>
-        <m name="hand_palm_width" value="9"/>
-        <m name="head_circ" value="60"/>
-        <m name="hand_palm_circ" value="22"/>
-        <m name="hand_circ" value="26"/>
+        <m name="xhand_palm_length" value="8"/>
+        <m name="xhand_length" value="19"/>
+        <m name="xhand_palm_width" value="9"/>
+        <m name="xhead_circ" value="60"/>
+        <m name="xhand_palm_circ" value="22"/>
+        <m name="xhand_circ" value="26"/>
         <m name="rib_circ" value="107"/>
         <m name="waist_circ" value="115"/>
         <m name="highhip_circ" value="113"/>
